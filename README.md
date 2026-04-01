@@ -11,7 +11,15 @@ The aim of this project was to utilize the linux command shell to run an automat
 - Ability to use bash scripting to automate certain tasks on the system
 - Threat Detection
 - Real Time monitoring
+## How it works
+ How It Works
+The script parses `/var/log/auth.log` and:
+- Counts failed login attempts
+- Identifies successful logins
+- Detects new user creation
+- Tracks sudo usage
+- Gives an output of the report
 
-## Steps
+## Screenshots
 <img width="319" height="115" alt="Screenshot 2026-04-01 233748" src="https://github.com/user-attachments/assets/79e0d1a1-6fc9-4740-a7c4-ec10a97771cb" />
 <img width="1105" height="381" alt="Screenshot 2026-04-01 233724" src="https://github.com/user-attachments/assets/73dcf629-8933-487e-8139-759b5f32b7a1" />
